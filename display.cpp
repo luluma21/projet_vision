@@ -17,3 +17,6 @@ display::display()
     waitKey(0);
 
 }
+display::show(){
+
+}
