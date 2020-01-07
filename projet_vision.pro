@@ -35,11 +35,19 @@ LIBS += -L$$(OPENCV_DIR)/lib \
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    display.cpp
+    display.cpp \
+    piece.cpp \
+    puzzle.cpp \
+    acquisition.cpp \
+    cote.cpp
 
 HEADERS += \
         mainwindow.h \
-    display.h
+    display.h \
+    piece.h \
+    puzzle.h \
+    acquisition.h \
+    cote.h
 
 FORMS += \
         mainwindow.ui
