@@ -35,7 +35,6 @@ LIBS += -L$$(OPENCV_DIR)/lib \
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    display.cpp \
     piece.cpp \
     puzzle.cpp \
     acquisition.cpp \
@@ -43,7 +42,6 @@ SOURCES += \
 
 HEADERS += \
         mainwindow.h \
-    display.h \
     piece.h \
     puzzle.h \
     acquisition.h \
